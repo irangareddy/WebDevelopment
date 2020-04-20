@@ -38,7 +38,9 @@ a:visited {
     color: #fff;
     padding: 10px 15px;
     border: none;
-
+}
+.clr {
+    clear:                      ;
 }
 
 .box-1{
@@ -131,5 +133,75 @@ a:visited {
     color:white;
 }
 
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.p-Box {
+    color: #ffffff;
+    float: left;
+    border: 1px #000 solid;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    background-image: url('../images/ironman.jpg');
+    background-size: cover;
+}
+
+.p-Box h1 {
+    color: red;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-weight: bolder;
+}
+
+.p-Box h2 {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 360px;
+    color: #fff;
+}
+
+.my-list li:first-child {
+    background: red;
+}
+
+.my-list li:last-child {
+    background: blue;
+}
+
+.my-list li:nth-child(5) {
+    background: yellow;
+}
+
+.my-list li:nth-last-child(even) {
+    background: grey;
+}
 
 
