@@ -1,0 +1,135 @@
+header{
+    text-align: center;
+}
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family:  sans-serif,Verdana, Tahoma;
+    font-size: 16px;
+    font-weight: normal;
+    /* Same as above
+    font: normal 16px sans-serif,Verdana, Tahoma; 
+    */
+    margin: 0;
+    line-height: 1.6em;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:active{
+    color: #298223;
+}
+
+a:visited {
+    color: #000000;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+
+}
+
+.box-1{
+    background-color: #000;
+    color: white;
+
+    
+
+    border-right:5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+
+    /*Same as above*/
+    border: 5px red solid;
+
+    /* More adding */
+    border-width: 2px;
+    border-radius: 5px;
+    border-right-width: 10px;
+    border-top-style: inset;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* Same as Above */
+    padding: 20px ;
+    margin: 20px 0px;
+
+}
+
+.box-1 h3 {
+    font-weight: 800px;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+    line-height: 1em;
+}
+
+.box-2 {
+    border: 3px #ccc dotted;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.categories {
+    border: 1px #ccc solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    padding:5%;
+    list-style: none;
+}
+
+.categories li {
+
+    padding-bottom: 3px;
+    border-bottom: dotted 1px #333;
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 10px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"],.my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: red;
+    color:white;
+}
+
+
+
